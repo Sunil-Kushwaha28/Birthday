@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: primaryFont;
+}
+@font-face {
+    font-family: primaryFont;
+    src: url(Poppins/Poppins-LightItalic.ttf);
+  }
+.main_container
+{
+    width: 100vw;
+    height: 100vh;
+    background: url(bgimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color:aliceblue;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+.searchArea
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.searchArea input[type=search]:focus
+{
+    outline: none;
+}
+.input-trans{
+    font-style: 16px;
+    line-height: 1.5;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 80%;
+    padding: .5em 1em .5em 2.5em;
+    margin-bottom: 0px;
+    color: #FFF;
+}
+.imageArea
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+.imageArea img
+{
+    width: auto; 
+    height: 100%;
+    border: 10px solid #FFF; 
+}
+.message
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.message p{
+    color: #000;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+}
